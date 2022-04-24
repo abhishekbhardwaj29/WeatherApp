@@ -21,6 +21,9 @@ const Weathercard = ({tempInfo}) => {
                 case "Mist" : setWeatherState("wi-dust");
                 break;
 
+                case "Dust" : setWeatherState("wi-dust");
+                break;
+
                 case "Rain" : setWeatherState("wi-rain");
                 break;
 
